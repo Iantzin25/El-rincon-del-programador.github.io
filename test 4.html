@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Programaci&oacute;n en JavaScript 1.5. Dise&ntilde;o de p&aacute;ginas Web interactivas</title>
+<style type="text/css">
+.noborder {
+	border-style: none;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--Ocultar código 
+
+function avisoreset() {
+	if(confirm("¡ATENCIÓN!. Los datos del test se van a reiniciar.")) {
+	document.cuestionario.reset();
+	parent.location.reload();
+	}
+}
+
+var pregunta1 = "0"; 
+var pregunta2 = "0"; 
+var pregunta3 = "0"; 
+var pregunta4 = "0"; 
+var pregunta5 = "0"; 
+var pregunta6 = "0"; 
+var pregunta7 = "0"; 
+var pregunta8 = "0"; 
+var pregunta9 = "0"; 
+var pregunta10 = "0"; 
+var pregunta11 = "0"; 
+var pregunta12 = "0"; 
+var pregunta13 = "0";
+var pregunta14 = "0";
+var pregunta15 = "0";
+
+function respuesta1(valor) 
+{pregunta1 = valor}; 
+function respuesta2(valor) 
+{pregunta2 = valor}; 
+function respuesta3(valor) 
+{pregunta3 = valor}; 
+function respuesta4(valor) 
+{pregunta4 = valor}; 
+function respuesta5(valor) 
+{pregunta5 = valor}; 
+function respuesta6(valor) 
+{pregunta6 = valor}; 
+function respuesta7(valor) 
+{pregunta7 = valor}; 
+function respuesta8(valor) 
+{pregunta8 = valor}; 
+function respuesta9(valor) 
+{pregunta9 = valor}; 
+function respuesta10(valor) 
+{pregunta10 = valor}; 
+function respuesta11(valor) 
+{pregunta11 = valor}; 
+function respuesta12(valor) 
+{pregunta12 = valor}; 
+function respuesta13(valor) 
+{pregunta13 = valor}; 
+function respuesta14(valor) 
+{pregunta14 = valor}; 
+function respuesta15(valor) 
+{pregunta15 = valor}; 
+// -->
+</script>
+</head>
+<body bgcolor="white" onload="alert('Bienvenido al test de conocimientos sobre Netbeans (Java). En este test podrás poner a prueba tus conocimientos respecto a Netbeans (Java). Recuerda que nadie es perfecto, y si crees necesitar un repaso, visita la zona de Temario de nuestra página web para regularizarte')">
+<center><p>
+<nav>Test de conocimientos de Netbeans (Java)</nav>
+<br />
+</p></center>
+<center><form name="cuestionario" id="cuestionario" action="">
+<table width="600" border="1" align="center" bgcolor="white">
+<tr>
+  <td width="600">
+<b><font color="#000000">1. ¿Qué es NetBeans?</font></b>
+<blockquote>
+<input type="radio" name="pregunta1" value="A" /> A. Un lenguaje de programación.<br /> 
+<input type="radio" name="pregunta1" value="B" /> B. Un entorno de desarrollo integrado (IDE).<br /> 
+<input type="radio" name="pregunta1" value="C" /> C. Una base de datos para Java.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">2. ¿Qué tipo de proyectos se pueden desarrollar en NetBeans?</font></b>
+<blockquote>
+<input type="radio" name="pregunta2" value="A" /> A. Solo aplicaciones de consola.<br /> 
+<input type="radio" name="pregunta2" value="B" /> B. Aplicaciones de escritorio, web y móviles.<br /> 
+<input type="radio" name="pregunta2" value="C" /> C. Únicamente aplicaciones web.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">3. ¿Qué extensión tienen los archivos de código fuente en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta3" value="A" /> A. .java<br /> 
+<input type="radio" name="pregunta3" value="B" /> B. .class<br /> 
+<input type="radio" name="pregunta3" value="C" /> C. .javaclass<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">4. ¿Qué tecla de atajo se usa para ejecutar un programa en NetBeans?</font></b>
+<blockquote>
+<input type="radio" name="pregunta4" value="A" /> A. F5<br /> 
+<input type="radio" name="pregunta4" value="B" /> B. F6<br /> 
+<input type="radio" name="pregunta4" value="C" /> C. Ctrl + R<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">5. ¿Qué método principal debe tener toda aplicación Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta5" value="A" /> A. start()<br /> 
+<input type="radio" name="pregunta5" value="B" /> B. run()<br /> 
+<input type="radio" name="pregunta5" value="C" /> C. main()<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">6. ¿Cuál de las siguientes opciones es válida para declarar una variable en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta6" value="A" /> A. int numero = 5;<br /> 
+<input type="radio" name="pregunta6" value="B" /> B. var numero := 5;<br /> 
+<input type="radio" name="pregunta6" value="C" /> C. integer numero = 5;<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">7. ¿Qué significa "public" en la declaración de una clase o método en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta7" value="A" /> A. Que es accesible solo dentro del paquete.<br /> 
+<input type="radio" name="pregunta7" value="B" /> B. Que es accesible desde cualquier clase.<br /> 
+<input type="radio" name="pregunta7" value="C" /> C. Que es accesible solo por subclases.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">8. ¿Qué es un JFrame en NetBeans?</font></b>
+<blockquote>
+<input type="radio" name="pregunta8" value="A" /> A. Un contenedor para aplicaciones gráficas.<br /> 
+<input type="radio" name="pregunta8" value="B" /> B. Una clase para conectarse a bases de datos.<br /> 
+<input type="radio" name="pregunta8" value="C" /> C. Un objeto que representa una ventana en consola.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">9. ¿Qué librería se usa para crear interfaces gráficas en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta9" value="A" /> A. java.util<br /> 
+<input type="radio" name="pregunta9" value="B" /> B. java.awt<br /> 
+<input type="radio" name="pregunta9" value="C" /> C. javax.swing<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">10. ¿Qué hace la clase Scanner en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta10" value="A" /> A. Leer entrada del usuario.<br /> 
+<input type="radio" name="pregunta10" value="B" /> B. Crear gráficos en consola.<br /> 
+<input type="radio" name="pregunta10" value="C" /> C. Crear conexiones a una base de datos.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">11. ¿Qué operador se utiliza para concatenar cadenas de texto en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta11" value="A" /> A. +<br /> 
+<input type="radio" name="pregunta11" value="B" /> B. &<br /> 
+<input type="radio" name="pregunta11" value="C" /> C. ++<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">12. ¿Qué se utiliza para manejar excepciones en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta12" value="A" /> A. try-catch<br /> 
+<input type="radio" name="pregunta12" value="B" /> B. if-else<br /> 
+<input type="radio" name="pregunta12" value="C" /> C. switch-case<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">13. ¿Qué estructura permite repetir un bloque de código mientras una condición sea verdadera?</font></b>
+<blockquote>
+<input type="radio" name="pregunta13" value="A" /> A. for<br /> 
+<input type="radio" name="pregunta13" value="B" /> B. while<br /> 
+<input type="radio" name="pregunta13" value="C" /> C. Ambas son correctas.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">14. ¿Qué significa "null" en Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta14" value="A" /> A. Una variable sin valor.<br /> 
+<input type="radio" name="pregunta14" value="B" /> B. Un valor igual a cero.<br /> 
+<input type="radio" name="pregunta14" value="C" /> C. Un valor booleano.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">15. ¿Qué componente del JDK compila el código Java?</font></b>
+<blockquote>
+<input type="radio" name="pregunta15" value="A" /> A. JVM<br /> 
+<input type="radio" name="pregunta15" value="B" /> B. javac<br /> 
+<input type="radio" name="pregunta15" value="C" /> C. JRE<br /> 
+</blockquote>
+</td>
+</tr>
+
+	
+	<tr><td bgcolor="White"> 
+<script language="JavaScript" type="text/javascript">
+<!--Ocultar código
+function examinar() 
+{ 
+puntuacion=0; 
+nocontesta=0; 
+contestadas=0; 
+puntosmaximos=0; 
+
+if(pregunta1!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta1 == "A") {puntuacion=puntuacion+2}
+  if(pregunta1 == "B") {puntuacion=puntuacion+0}
+  if(pregunta1 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta2 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta2 == "A") {puntuacion=puntuacion-1}
+  if(pregunta2 == "B") {puntuacion=puntuacion+0}
+  if(pregunta2 == "C") {puntuacion=puntuacion+1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta3!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta3 == "A") {puntuacion=puntuacion+2}
+  if(pregunta3 == "B") {puntuacion=puntuacion+0}
+  if(pregunta3 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta4 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta4 == "A") {puntuacion=puntuacion+1}
+  if(pregunta4 == "B") {puntuacion=puntuacion+0}
+  if(pregunta4 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta5!= "0" ){
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta5 == "A") {puntuacion=puntuacion-2}
+  if(pregunta5 == "B") {puntuacion=puntuacion+0}
+  if(pregunta5 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta6 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta6 == "A") {puntuacion=puntuacion+3}
+  if(pregunta6 == "B") {puntuacion=puntuacion+0}
+  if(pregunta6 == "C") {puntuacion=puntuacion-3}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta7!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta7 == "A") {puntuacion=puntuacion+2}
+  if(pregunta7 == "B") {puntuacion=puntuacion+0}
+  if(pregunta7 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta8 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta8 == "A") {puntuacion=puntuacion+0}
+  if(pregunta8 == "B") {puntuacion=puntuacion+1}
+  if(pregunta8 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta9!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta9 == "A") {puntuacion=puntuacion-1}
+  if(pregunta9 == "B") {puntuacion=puntuacion+0}
+  if(pregunta9 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta10 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta10 == "A") {puntuacion=puntuacion+2}
+  if(pregunta10 == "B") {puntuacion=puntuacion-1}
+  if(pregunta10 == "C") {puntuacion=puntuacion+0}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta11!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta11 == "A") {puntuacion=puntuacion+0}
+  if(pregunta11 == "B") {puntuacion=puntuacion+2}
+  if(pregunta11 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+
+if(pregunta12 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta12 == "A") {puntuacion=puntuacion+2}
+  if(pregunta12 == "B") {puntuacion=puntuacion+0}
+  if(pregunta12 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta13 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta13 == "A") {puntuacion=puntuacion+0}
+  if(pregunta13 == "B") {puntuacion=puntuacion-1}
+  if(pregunta13 == "C") {puntuacion=puntuacion+2}
+}else {nocontesta=nocontesta+1}
+
+if(pregunta14 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta14 == "A") {puntuacion=puntuacion+0}
+  if(pregunta14 == "B") {puntuacion=puntuacion-1}
+  if(pregunta14 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta15 != "0"){
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+4
+  if(pregunta15 == "A") {puntuacion=puntuacion+4}
+  if(pregunta15 == "B") {puntuacion=puntuacion+0}
+  if(pregunta15 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if (puntosmaximos!=0) 
+{indiceacierto=Math.round(100*(puntuacion/puntosmaximos))
+} 
+else{indiceacierto=0} 
+
+
+if(indiceacierto==100) 
+{
+mensaje="SOBRESALIENTE. Sus conocimientos de matemáticas son excelentes"} 
+if(indiceacierto<100&&indiceacierto>=75) 
+{
+mensaje="NOTABLE. Usted tiene una buena base de matemáticas."} 
+if(indiceacierto<75&&indiceacierto>=50)
+{
+mensaje="BIEN. Puede defenderse con ayuda de una calculadora."} 
+if(indiceacierto<50&&indiceacierto>=25)
+{
+mensaje="JUSTILLO. Un repaso no le irá nada mal."} 
+if(indiceacierto<25)
+{
+mensaje="DESASTROSO. Sin comentarios. Por cierto, dos y dos son cuatro"} 
+if(contestadas==0)
+{
+mensaje="Por favor, conteste alguna de las preguntas del test. ¡LISTILLO!"} 
+
+alert("Su puntuación es "+puntuacion+"." +  "\n\nEl número máximo de puntos que podía conseguir era de " + puntosmaximos + ".\n\nHa dejado sin contestar "+ nocontesta+".\n\nSu porcentaje de aciertos es de "+indiceacierto+"%.\n\n"+mensaje+". ") 
+
+}
+
+// Fin de ocultar-->
+</script>
+<br />
+<center>
+<input type="button" name="submit" value="Resultado del test" onclick="examinar()" />
+<input type="button" name="Reset" value="Reinicar test" onclick="avisoreset()" />
+<input type="button" name="solucion" value="Respuestas correctas" onclick="alert('RESPUESTAS CORRECTAS\n\n1:A   6:A  11:B\n2:B   7:B  12:A\n3:B   8:A  13:B\n4:C   9:A  14:C\n5:B  10:C  15:A')" />
+</center>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

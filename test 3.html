@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Programaci&oacute;n en JavaScript 1.5. Dise&ntilde;o de p&aacute;ginas Web interactivas</title>
+<style type="text/css">
+.noborder {
+	border-style: none;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--Ocultar código 
+
+function avisoreset() {
+	if(confirm("¡ATENCIÓN!. Los datos del test se van a reiniciar.")) {
+	document.cuestionario.reset();
+	parent.location.reload();
+	}
+}
+
+var pregunta1 = "0"; 
+var pregunta2 = "0"; 
+var pregunta3 = "0"; 
+var pregunta4 = "0"; 
+var pregunta5 = "0"; 
+var pregunta6 = "0"; 
+var pregunta7 = "0"; 
+var pregunta8 = "0"; 
+var pregunta9 = "0"; 
+var pregunta10 = "0"; 
+var pregunta11 = "0"; 
+var pregunta12 = "0"; 
+var pregunta13 = "0";
+var pregunta14 = "0";
+var pregunta15 = "0";
+
+function respuesta1(valor) 
+{pregunta1 = valor}; 
+function respuesta2(valor) 
+{pregunta2 = valor}; 
+function respuesta3(valor) 
+{pregunta3 = valor}; 
+function respuesta4(valor) 
+{pregunta4 = valor}; 
+function respuesta5(valor) 
+{pregunta5 = valor}; 
+function respuesta6(valor) 
+{pregunta6 = valor}; 
+function respuesta7(valor) 
+{pregunta7 = valor}; 
+function respuesta8(valor) 
+{pregunta8 = valor}; 
+function respuesta9(valor) 
+{pregunta9 = valor}; 
+function respuesta10(valor) 
+{pregunta10 = valor}; 
+function respuesta11(valor) 
+{pregunta11 = valor}; 
+function respuesta12(valor) 
+{pregunta12 = valor}; 
+function respuesta13(valor) 
+{pregunta13 = valor}; 
+function respuesta14(valor) 
+{pregunta14 = valor}; 
+function respuesta15(valor) 
+{pregunta15 = valor}; 
+// -->
+</script>
+</head>
+<body bgcolor="white" onload="alert('Bienvenido al test de conocimientos sobre DFD. En este test podrás poner a prueba tus conocimientos respecto a DFD. Recuerda que nadie es perfecto, y si crees necesitar un repaso, visita la zona de Temario de nuestra página web para regularizarte')">
+<center><p>
+<nav>Test de conocimientos de DFD</nav>
+<br />
+</p></center>
+<center><form name="cuestionario" id="cuestionario" action="">
+<table width="600" border="1" align="center" bgcolor="white">
+<tr>
+  <td width="600">
+<b><font color="#000000">1. ¿Qué representan los Diagramas de Flujo de Datos (DFD)?</font></b>
+<blockquote>
+<input type="radio" name="pregunta1" value="A" /> A. La secuencia de pasos de un algoritmo.<br /> 
+<input type="radio" name="pregunta1" value="B" /> B. El flujo de información entre procesos y entidades externas.<br /> 
+<input type="radio" name="pregunta1" value="C" /> C. Los datos almacenados en una base de datos.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">2. ¿Cuál es el principal objetivo de un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta2" value="A" /> A. Detallar la lógica de un programa.<br /> 
+<input type="radio" name="pregunta2" value="B" /> B. Describir el flujo y transformación de datos en un sistema.<br /> 
+<input type="radio" name="pregunta2" value="C" /> C. Representar la interfaz de usuario.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">3. ¿Qué forma geométrica se usa para representar una entidad externa en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta3" value="A" /> A. Rectángulo.<br /> 
+<input type="radio" name="pregunta3" value="B" /> B. Círculo.<br /> 
+<input type="radio" name="pregunta3" value="C" /> C. Flecha.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">4. ¿Qué elemento del DFD representa el almacenamiento de datos?</font></b>
+<blockquote>
+<input type="radio" name="pregunta4" value="A" /> A. Un paralelogramo.<br /> 
+<input type="radio" name="pregunta4" value="B" /> B. Dos líneas paralelas.<br /> 
+<input type="radio" name="pregunta4" value="C" /> C. Un triángulo invertido.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">5. ¿Qué tipo de información se describe en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta5" value="A" /> A. Cómo se procesan y transforman los datos.<br /> 
+<input type="radio" name="pregunta5" value="B" /> B. Las reglas de negocio.<br /> 
+<input type="radio" name="pregunta5" value="C" /> C. El diseño gráfico del sistema.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">6. ¿Qué simboliza una flecha en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta6" value="A" /> A. Un flujo de datos.<br /> 
+<input type="radio" name="pregunta6" value="B" /> B. Un almacenamiento temporal.<br /> 
+<input type="radio" name="pregunta6" value="C" /> C. Una función.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">7. ¿Qué nombre recibe el círculo o burbuja en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta7" value="A" /> A. Entidad externa.<br /> 
+<input type="radio" name="pregunta7" value="B" /> B. Proceso.<br /> 
+<input type="radio" name="pregunta7" value="C" /> C. Almacén de datos.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">8. ¿Qué niveles de detalle puede tener un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta8" value="A" /> A. Solo un nivel general.<br /> 
+<input type="radio" name="pregunta8" value="B" /> B. Nivel general y niveles más detallados.<br /> 
+<input type="radio" name="pregunta8" value="C" /> C. Solo niveles detallados.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">9. ¿Cómo se llama el nivel más general de un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta9" value="A" /> A. Nivel 1.<br /> 
+<input type="radio" name="pregunta9" value="B" /> B. Diagrama de contexto.<br /> 
+<input type="radio" name="pregunta9" value="C" /> C. Nivel 2.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">10. ¿Qué describe mejor el concepto de "proceso" en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta10" value="A" /> A. Una transformación de datos.<br /> 
+<input type="radio" name="pregunta10" value="B" /> B. Un lugar donde se almacenan datos.<br /> 
+<input type="radio" name="pregunta10" value="C" /> C. Un flujo de entrada.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">11. ¿Qué elemento no forma parte de un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta11" value="A" /> A. Flujo de datos.<br /> 
+<input type="radio" name="pregunta11" value="B" /> B. Procesos.<br /> 
+<input type="radio" name="pregunta11" value="C" /> C. Código fuente.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">12. ¿Qué tipo de diagrama se necesita para iniciar el desarrollo de un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta12" value="A" /> A. Diagrama de contexto.<br /> 
+<input type="radio" name="pregunta12" value="B" /> B. Diagrama de entidad-relación.<br /> 
+<input type="radio" name="pregunta12" value="C" /> C. Diagrama de clases.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">13. ¿Qué representa una entidad externa en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta13" value="A" /> A. Un lugar donde se almacenan datos.<br /> 
+<input type="radio" name="pregunta13" value="B" /> B. Una fuente o destino de datos fuera del sistema.<br /> 
+<input type="radio" name="pregunta13" value="C" /> C. Una conexión entre procesos.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">14. ¿Qué indica un flujo bidireccional en un DFD?</font></b>
+<blockquote>
+<input type="radio" name="pregunta14" value="A" /> A. Que los datos se transfieren en ambas direcciones.<br /> 
+<input type="radio" name="pregunta14" value="B" /> B. Un error en el diseño.<br /> 
+<input type="radio" name="pregunta14" value="C" /> C. Un proceso dividido.<br /> 
+</blockquote>
+</td>
+</tr>
+
+<tr>
+  <td>
+<b><font color="#000000">15. ¿Qué diferencia un DFD lógico de un DFD físico?</font></b>
+<blockquote>
+<input type="radio" name="pregunta15" value="A" /> A. El DFD lógico muestra qué se hace, y el físico cómo se hace.<br /> 
+<input type="radio" name="pregunta15" value="B" /> B. El DFD físico es menos detallado.<br /> 
+<input type="radio" name="pregunta15" value="C" /> C. El DFD lógico no incluye entidades externas.<br /> 
+</blockquote>
+</td>
+</tr>
+
+	
+	<tr><td bgcolor="White"> 
+<script language="JavaScript" type="text/javascript">
+<!--Ocultar código
+function examinar() 
+{ 
+puntuacion=0; 
+nocontesta=0; 
+contestadas=0; 
+puntosmaximos=0; 
+
+if(pregunta1!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta1 == "A") {puntuacion=puntuacion+2}
+  if(pregunta1 == "B") {puntuacion=puntuacion+0}
+  if(pregunta1 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta2 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta2 == "A") {puntuacion=puntuacion-1}
+  if(pregunta2 == "B") {puntuacion=puntuacion+0}
+  if(pregunta2 == "C") {puntuacion=puntuacion+1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta3!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta3 == "A") {puntuacion=puntuacion+2}
+  if(pregunta3 == "B") {puntuacion=puntuacion+0}
+  if(pregunta3 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta4 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta4 == "A") {puntuacion=puntuacion+1}
+  if(pregunta4 == "B") {puntuacion=puntuacion+0}
+  if(pregunta4 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta5!= "0" ){
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta5 == "A") {puntuacion=puntuacion-2}
+  if(pregunta5 == "B") {puntuacion=puntuacion+0}
+  if(pregunta5 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta6 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta6 == "A") {puntuacion=puntuacion+3}
+  if(pregunta6 == "B") {puntuacion=puntuacion+0}
+  if(pregunta6 == "C") {puntuacion=puntuacion-3}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta7!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta7 == "A") {puntuacion=puntuacion+2}
+  if(pregunta7 == "B") {puntuacion=puntuacion+0}
+  if(pregunta7 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta8 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+1
+  if(pregunta8 == "A") {puntuacion=puntuacion+0}
+  if(pregunta8 == "B") {puntuacion=puntuacion+1}
+  if(pregunta8 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta9!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta9 == "A") {puntuacion=puntuacion-1}
+  if(pregunta9 == "B") {puntuacion=puntuacion+0}
+  if(pregunta9 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1} 
+
+if(pregunta10 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta10 == "A") {puntuacion=puntuacion+2}
+  if(pregunta10 == "B") {puntuacion=puntuacion-1}
+  if(pregunta10 == "C") {puntuacion=puntuacion+0}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta11!= "0" )
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta11 == "A") {puntuacion=puntuacion+0}
+  if(pregunta11 == "B") {puntuacion=puntuacion+2}
+  if(pregunta11 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1} 
+
+
+if(pregunta12 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta12 == "A") {puntuacion=puntuacion+2}
+  if(pregunta12 == "B") {puntuacion=puntuacion+0}
+  if(pregunta12 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta13 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+2
+  if(pregunta13 == "A") {puntuacion=puntuacion+0}
+  if(pregunta13 == "B") {puntuacion=puntuacion-1}
+  if(pregunta13 == "C") {puntuacion=puntuacion+2}
+}else {nocontesta=nocontesta+1}
+
+if(pregunta14 != "0")
+{
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+3
+  if(pregunta14 == "A") {puntuacion=puntuacion+0}
+  if(pregunta14 == "B") {puntuacion=puntuacion-1}
+  if(pregunta14 == "C") {puntuacion=puntuacion+3}
+}
+else {nocontesta=nocontesta+1}
+
+if(pregunta15 != "0"){
+  contestadas=contestadas+1
+  puntosmaximos=puntosmaximos+4
+  if(pregunta15 == "A") {puntuacion=puntuacion+4}
+  if(pregunta15 == "B") {puntuacion=puntuacion+0}
+  if(pregunta15 == "C") {puntuacion=puntuacion-1}
+}
+else {nocontesta=nocontesta+1}
+
+if (puntosmaximos!=0) 
+{indiceacierto=Math.round(100*(puntuacion/puntosmaximos))
+} 
+else{indiceacierto=0} 
+
+
+if(indiceacierto==100) 
+{
+mensaje="SOBRESALIENTE. Sus conocimientos de matemáticas son excelentes"} 
+if(indiceacierto<100&&indiceacierto>=75) 
+{
+mensaje="NOTABLE. Usted tiene una buena base de matemáticas."} 
+if(indiceacierto<75&&indiceacierto>=50)
+{
+mensaje="BIEN. Puede defenderse con ayuda de una calculadora."} 
+if(indiceacierto<50&&indiceacierto>=25)
+{
+mensaje="JUSTILLO. Un repaso no le irá nada mal."} 
+if(indiceacierto<25)
+{
+mensaje="DESASTROSO. Sin comentarios. Por cierto, dos y dos son cuatro"} 
+if(contestadas==0)
+{
+mensaje="Por favor, conteste alguna de las preguntas del test. ¡LISTILLO!"} 
+
+alert("Su puntuación es "+puntuacion+"." +  "\n\nEl número máximo de puntos que podía conseguir era de " + puntosmaximos + ".\n\nHa dejado sin contestar "+ nocontesta+".\n\nSu porcentaje de aciertos es de "+indiceacierto+"%.\n\n"+mensaje+". ") 
+
+}
+
+// Fin de ocultar-->
+</script>
+<br />
+<center>
+<input type="button" name="submit" value="Resultado del test" onclick="examinar()" />
+<input type="button" name="Reset" value="Reinicar test" onclick="avisoreset()" />
+<input type="button" name="solucion" value="Respuestas correctas" onclick="alert('RESPUESTAS CORRECTAS\n\n1:A   6:A  11:B\n2:B   7:B  12:A\n3:B   8:A  13:B\n4:C   9:A  14:C\n5:B  10:C  15:A')" />
+</center>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

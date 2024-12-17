@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+	 
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+	   <h2>Tipos de datos y operadores </h2>
+	<h2>Operadores aritméticos</h2>
+	<p>Los operadores aritméticos son símbolos o signos que se utilizan en programación y matemáticas para realizar operaciones básicas con números, como suma, resta, multiplicación, división, entre otras. Son fundamentales para trabajar con cálculos numéricos.</p>
+	<HR>
+	<h2>Operadores lógicos</h2>
+	<P>Los operadores lógicos son herramientas utilizadas en programación y lógica matemática para combinar o comparar valores booleanos (verdadero o falso) y determinar un resultado lógico. Son esenciales para la toma de decisiones en programas, ya que permiten evaluar condiciones y controlar el flujo del código.</P>
+		<hr>
+		<h2>Operadores relacionales</h2>
+		<p>Los operadores relacionales son símbolos o palabras clave utilizadas en programación y matemáticas para comparar dos valores. El resultado de esta comparación siempre es un valor booleano: verdadero (true) o falso (fal
+		<p>Los operadores relacionales son símbolos o palabras clave utilizadas en programación y matemáticas para comparar dos valores. El resultado de esta comparación siempre es un valor booleano: verdadero (true) o falso (false). Son fundamentales para la toma de decisiones en los programas, ya que permiten evaluar condiciones.</p>
+	  <center><h3>Operadores relacionales </h3></center>
+	  
+	  <br>
+	     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Expandible</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            cursor: pointer;
+        }
+
+        .hidden-row {
+            display: none;
+        }
+
+        .hidden-row td {
+            background-color: #f9f9f9;
+        }
+    </style>
+	
+	<hr>
+<body>
+	
+   
+    <table>
+        <thead>
+            <tr>
+                <th bgcolor="#F0004A" onclick="toggleRow(1)"> < </th>
+                <th bgcolor="#F4F4F4" onclick="toggleRow(2)"> > </th>
+                <th onclick="toggleRow(3)"> == </th>
+				<th onclick="toggleRow(4)"> != </th>
+				<th onclick="toggleRow(5)"> >= </th>
+				<th onclick="toggleRow(6)"> <= </th>	
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row-1" class="hidden-row">
+                <td colspan="6">menor que </td>
+            </tr>
+            <tr id="row-2" class="hidden-row">
+                <td colspan="6">mayor que </td>
+            </tr>
+            <tr id="row-3" class="hidden-row">
+                <td colspan="6">comparacion</td>
+            </tr>
+			 <tr id="row-4" class="hidden-row">
+                <td colspan="6">diferente de </td>
+            </tr>
+			 <tr id="row-5" class="hidden-row">
+                <td colspan="6">menor o igual</td>
+            </tr>
+			 <tr id="row-6" class="hidden-row">
+                <td colspan="6">mayor o igual</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function toggleRow(rowId) {
+            const row = document.getElementById(`row-${rowId}`);
+            row.style.display = row.style.display === "table-row" ? "none" : "table-row";
+        }
+    </script>
+</body>
+	 <center><h3>Operadores logicos </h3></center>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Expandible</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            cursor: pointer;
+        }
+
+        .hidden-row {
+            display: none;
+        }
+
+        .hidden-row td {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+	<hr>
+<body>
+	
+ 
+    <table>
+        <thead>
+            <tr>
+                <th onclick="toggleRow(7)">&&</th>
+                <th onclick="toggleRow(8)">||</th>
+                <th onclick="toggleRow(9)">|</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row-7" class="hidden-row">
+                <td colspan="3">AND (Y)</td>
+            </tr>
+            <tr id="row-8" class="hidden-row">
+                <td colspan="3">OR (O)</td>
+            </tr>
+            <tr id="row-9" class="hidden-row">
+                <td colspan="3">NOT (NO)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function toggleRow(rowId) {
+            const row = document.getElementById(`row-${rowId}`);
+            row.style.display = row.style.display === "table-row" ? "none" : "table-row";
+        }
+    </script>
+</body>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Expandible</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            cursor: pointer;
+        }
+
+        .hidden-row {
+            display: none;
+        }
+
+        .hidden-row td {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+	<hr>
+<body>
+   <center> <h3>Operadores  aritméticos </h3></center>
+    <table>
+        <thead>
+            <tr>
+                <th onclick="toggleRow(10)">+</th>
+                <th onclick="toggleRow(11)">-</th>
+                <th onclick="toggleRow(12)">*</th>
+				<th onclick="toggleRow(13)">/</th>
+				<th onclick="toggleRow(14)">%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row-10" class="hidden-row">
+                <td colspan="5">Suma o adicion</td>
+            </tr>
+            <tr id="row-11" class="hidden-row">
+                <td colspan="5">Resta o sustraccion</td>
+            </tr>
+            <tr id="row-12" class="hidden-row">
+                <td colspan="5">Multiplicacion o producto</td>
+            </tr>
+			 <tr id="row-13" class="hidden-row">
+                <td colspan="5">Divicion</td>
+            </tr>
+			<tr id="row-14" class="hidden-row">
+                <td colspan="5">Modulo o residuo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function toggleRow(rowId) {
+            const row = document.getElementById(`row-${rowId}`);
+            row.style.display = row.style.display === "table-row" ? "none" : "table-row";
+        }
+    </script>
+	
+	
+	<hr>
+	
+</body>
+
+
+</head>
+</body>
+</html>

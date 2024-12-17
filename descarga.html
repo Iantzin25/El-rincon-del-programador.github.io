@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Interactiva de Algoritmos en Java</title>
+    <!-- Enlace a la biblioteca DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <h1>Tabla Interactiva de Algoritmos en Java</h1>
+    <table id="algorithmsTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Algoritmo</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+                <th>Complejidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bucle for</td>
+                <td>Se utiliza para iterar un bloque de código un número determinado de veces.</td>
+                <td><code>for (int i = 0; i < 10; i++) { System.out.println(i); }</code></td>
+                <td>Baja</td>
+            </tr>
+            <tr>
+                <td>Bucle while</td>
+                <td>Permite repetir un bloque de código mientras una condición sea verdadera.</td>
+                <td><code>while (contador < 10) { contador++; }</code></td>
+                <td>Baja</td>
+            </tr>
+            <tr>
+                <td>Condicional if-else</td>
+                <td>Evalúa una condición lógica y ejecuta diferentes bloques de código según el resultado.</td>
+                <td><code>if (x > 0) { System.out.println("Positivo"); } else { System.out.println("Negativo"); }</code></td>
+                <td>Baja</td>
+            </tr>
+            <tr>
+                <td>Switch</td>
+                <td>Permite seleccionar entre múltiples opciones basadas en un valor.</td>
+                <td><code>switch (opcion) { case 1: System.out.println("Uno"); break; }</code></td>
+                <td>Moderada</td>
+            </tr>
+            <tr>
+                <td>Recursión</td>
+                <td>Llama a una función dentro de sí misma para resolver problemas divididos en subproblemas.</td>
+                <td><code>int factorial(int n) { return (n <= 1) ? 1 : n * factorial(n - 1); }</code></td>
+                <td>Alta</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Inicializa DataTables en la tabla
+        $(document).ready(function() {
+            $('#algorithmsTable').DataTable({
+                language: {
+                    url: "https://cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json"
+                },
+                paging: true,
+                searching: true,
+                ordering: true
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+

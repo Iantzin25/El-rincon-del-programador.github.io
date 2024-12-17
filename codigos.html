@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Códigos</title>
+	<style>
+		/* Estilo general */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: white; /* Fondo blanco */
+			color: black; /* Letras negras */
+			margin: 0;
+			padding: 0;
+		}
+		h2, h3 {
+			color: #800000; /* Color guinda */
+		}
+		p, ul {
+			font-size: 16px;
+			line-height: 1.6;
+			margin: 0 20px;
+		}
+		ul li {
+			margin-bottom: 10px;
+		}
+
+		/* Barra de navegación */
+		nav {
+			background-color: #800000; /* Color guinda */
+			padding: 10px 0;
+			text-align: center;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin: 0 15px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		/* Estilo de las imágenes */
+		img {
+			border: 2px solid #800000; /* Bordes guinda */
+			border-radius: 10px;
+		}
+
+		/* Línea divisoria */
+		hr {
+			border: 0;
+			height: 2px;
+			background: #800000;
+			margin: 20px 0;
+		}
+
+		/* Encabezados */
+		h2 {
+			text-align: center;
+			font-size: 28px;
+			text-transform: uppercase;
+			margin: 20px 0;
+		}
+		h3 {
+			font-size: 20px;
+			margin: 10px 0;
+		}
+
+		/* Botón */
+		button {
+			background-color: #800000;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			margin: 20px;
+		}
+		button:hover {
+			background-color: #4b0c0c;
+		}
+
+		/* Pie de página */
+		footer {
+			background-color: #800000; /* Fondo guinda */
+			color: white;
+			text-align: center;
+			padding: 15px 0;
+			margin-top: 30px;
+			font-size: 14px;
+		}
+
+		/* Sección decorativa */
+		.decorative-box {
+			background-color: #f8d7da; /* Fondo claro con tono guinda */
+			border: 2px solid #800000; /* Bordes guinda */
+			padding: 15px;
+			margin: 20px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Barra de navegación -->
+	<nav>
+		<a href="#imprimir-datos">Imprimir datos</a>
+		<a href="#declaracion-variables">Declaración de variables</a>
+		<a href="#entrada-datos">Entrada de datos</a>
+		<a href="#estructuras-control">Estructuras de control</a>
+		<a href="#metodos">Métodos</a>
+		<a href="#clases-objetos">Clases y objetos</a>
+	</nav>
+
+	<section id="imprimir-datos">
+		<center><h2>Imprimir datos en pantalla</h2></center>
+		<center><img src="images/codigos1.png" width="1000"></center>
+		<h3>
+			<p>La palabra "System" es un método, un grupo de instrucciones dentro de una clase.</p>
+			<p>Los métodos empiezan con la primera letra en mayúscula.</p>
+		</h3>
+		<hr>
+	</section>
+
+	<section id="declaracion-variables">
+		<center><h2>Declaración de variables y tipos de datos</h2></center>
+		<center><img src="images/codigos2.png" width="700"></center>
+		<h3>
+			<p>En Java, existen ocho tipos de datos primitivos:</p>
+			<ul>
+				<li>Enteros: byte, short, int, long</li>
+				<li>Punto Flotante: float, double</li>
+				<li>Carácter: char</li>
+				<li>Booleano: boolean</li>
+			</ul>
+		</h3>
+		<hr>
+	</section>
+
+	<section id="entrada-datos">
+		<center><h2>Entrada de datos con Scanner</h2></center>
+		<center><img src="images/codigos3.png" width="700"></center>
+		<h3>
+			<p>En Java, la clase Scanner se utiliza para leer datos ingresados por el usuario desde el teclado. Es una herramienta muy útil para interactuar con los usuarios en programas de consola.</p>
+			<p>Se debe instanciar un objeto de la clase Scanner, que se vincula con System.in para recibir datos del teclado.</p>
+		</h3>
+		<hr>
+	</section>
+
+	<section id="estructuras-control">
+		<center><h2>Estructuras de Control</h2></center>
+		<h3>
+			<center><p>Condicionales: if-else</p></center>
+			<center><img src="images/codigos4.png" width="700"></center>
+			<center><p>Ciclos: for y while</p></center>
+			<center><img src="images/codigos5.png" width="700"></center>
+			<p>if, else if, else se usan para evaluar condiciones y ejecutar bloques de código dependiendo del resultado (verdadero o falso).</p>
+		</h3>
+		<hr>
+	</section>
+
+	<section id="metodos">
+		<center><h2>Métodos</h2></center>
+		<center><img src="images/codigos6.png" width="700"></center>
+		<h3>
+			<p>Un método es un bloque de código que realiza una tarea específica y que puede ser reutilizado. Los métodos son fundamentales en Java, ya que permiten estructurar el código en funciones separadas, mejorando la organización y la reutilización.</p>
+			<ul>
+				<li>Modificadores de acceso: Determinan la visibilidad del método (public, private, protected).</li>
+				<li>Tipo de retorno: Indica qué tipo de dato devuelve el método (int, void, String, etc.). Si no devuelve nada, se usa void.</li>
+				<li>Nombre del método: Una etiqueta que identifica al método (debe ser descriptiva).</li>
+				<li>Parámetros: Datos que el método necesita para realizar su tarea. Se declaran dentro de paréntesis.</li>
+				<li>Cuerpo del método: El bloque de código que define lo que hace el método, encerrado entre llaves {}.</li>
+			</ul>
+		</h3>
+		<hr>
+	</section>
+
+	<section id="clases-objetos">
+		<center><h2>Clases y objetos</h2></center>
+		<h3>
+			<ul>
+				<li>Definición de clases.</li>
+				<li>Creación de objetos.</li>
+			</ul>
+			<center><img src="images/codigos7.png" width="700"></center>
+		</h3>
+	</section>
+
+	
+</body>
+</html>
+
